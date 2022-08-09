@@ -4,7 +4,7 @@ import axios from "axios";
 function App() {
 	const [data, setData] = React.useState();
 	const [data2, setData2] = React.useState();
-	const url = "http://127.0.0.1:8000";
+	const url = "https://tranquil-chamber-13279.herokuapp.com/";
         const url2 = "https://api.github.com/users/efficient-life/repos";
 
 
